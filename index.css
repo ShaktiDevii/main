@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: auto;
+    height:calc(100vh - 0px);
+    margin-top: 0px;
+    background-image: url(../images/praveda.png);
+    background-size: 85vh;    
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+}
+
+main .main-intro {
+    position: relative;
+    right: 45vh;
+    top: -7vh;
+}
+
+main .sad{
+    position: relative;
+    left: 0vh;
+    top: 10vh;
+}
+
+h1 {    
+    font-size: 400%;
+    color: #ea26bc;
+    text-shadow: 0 0 30px #05949b;
+}
+
+p {
+    color: #000000;
+    font-size: 14px;
+}
+
+main a {
+    margin: 30px;
+    font-size: 18px;
+    display: block;
+    background-color: #ea26bc;
+    padding: 30px, 40px;
+    width: fit-content;
+}
+
+@media (max-width: 800px) {
+    h1 {    
+    font-size: 200%;
+   }
+    .main-intro {
+    position: relative;
+    left: 0vh;
+    margin-top: 150vh;
+  }
+  .sad {
+    display: none;
+   
+}
+}

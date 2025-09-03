@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background-image: linear-gradient(#e7a6f2 1px, transparent 1px), linear-gradient(to right, #e7a6f2 1px, transparent 1px);
+    background-size: 15px 15px;
+    background-color: #90ddf5;
+}
+
+.dark-mode {
+    background-image: linear-gradient(#3a0344 1px, transparent 1px), linear-gradient(to right, #3a0344 1px, transparent 1px);
+    background-size: 15px 15px;
+    background-color: #042e3b;
+}
+
+.dark-mode p{
+    color: #fffefe;
+}
+.dark-mode li{
+    color: #fffefe;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+.dark-mode th, .dark-mode td{
+    color: white;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container video {
+  padding: 10px;
+}
+
+.two-column {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    font-size: 500%;
+    color: #ea26bc;
+    text-shadow: 0 0 30px #05949b;
+    text-align: center;
+}
+
+section {
+    margin-block: 100px
+}
+
+nav ul {
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+}
+
+.lucy-photos img{
+  inline-size: 30%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;;
+}
+
+.games img{
+    inline-size: 50%;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(11, 42, 52, 0.5);
+}
+
+.wrapper {
+    max-inline-size: 1000px;
+    margin-inline: auto;  
+    overflow: auto;
+}
+
+.light-blue {
+    padding: 10px;
+    border: #CBC3E3 solid 10px;
+    background: lightblue;
+}
+
+h3 {
+    padding: 5px;
+    border: #CBC3E3 solid 5px;
+    background: aquamarine;
+}
+a {
+    color: purple;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover, a:focus-visible {
+    color: beige;
+}
+
+a:active {
+    color: orange;
+}
+
+li::marker {
+    content: '🌼';
+}
+
+footer {
+    text-align: center;
+}
