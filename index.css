@@ -6,7 +6,7 @@ main {
     width: auto;
     height:calc(100vh - 0px);
     margin-top: 0px;
-    background-image: url(../images/praveda.png);
+    background-image: url(images/praveda.png);
     background-size: 85vh;    
     background-repeat: no-repeat;
     background-position: center;
@@ -61,4 +61,5 @@ main a {
     display: none;
    
 }
+
 }
