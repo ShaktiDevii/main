@@ -3,7 +3,6 @@
 }
 
 body{
-    font-family: cursive;
     background-image: linear-gradient(#e7a6f2 1px, transparent 1px), linear-gradient(to right, #e7a6f2 1px, transparent 1px);
     background-size: 15px 15px;
     background-color: #90ddf5;
@@ -119,4 +118,5 @@ li::marker {
 
 footer {
     text-align: center;
+
 }
