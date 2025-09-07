@@ -22,6 +22,10 @@ main .main-intro {
     top: -7vh;
 }
 
+main .main-into li{
+    font-size: 18px;
+}
+
 main .sad{
     position: relative;
     left: 0vh;
@@ -63,3 +67,4 @@ main a {
 }
 
 }
+
