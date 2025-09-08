@@ -24,7 +24,7 @@ main .main-intro {
 
 main .sad{
     position: relative;
-    left: 0vh;
+    left: 10vh;
     top: 10vh;
 }
 
@@ -63,5 +63,6 @@ main a {
 }
 
 }
+
 
 
